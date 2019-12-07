@@ -1,0 +1,137 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Full Height Section Start */
+ body.theme-2{
+	background: #6e8ea3; /* Old browsers */
+	background: -moz-linear-gradient(left,  #6e8ea3 0%, #8b8398 32%, #8d8296 60%, #aa8078 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #6e8ea3 0%,#8b8398 32%,#8d8296 60%,#aa8078 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #6e8ea3 0%,#8b8398 32%,#8d8296 60%,#aa8078 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e8ea3', endColorstr='#aa8078',GradientType=1 ); /* IE6-9 */
+}
+body.theme-1{
+	background-image: url(../img/section-bg.jpg);
+	background-position:center center;
+	background-size: cover;
+}
+html, .theme-1 {
+	height: 100%;
+}
+.site-wrap {
+  height: 100%;
+}
+.site-wrap-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.site-wrap-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  /*! padding: 15px; */
+  position: relative;
+}
+.header-area {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 60px 80px;
+}
+.footer-area {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #e6dfe4;
+  padding: 15px;
+}
+h1,h2 {
+  font-weight: 400;
+}
+.logo a {
+	color: #252c30;
+}
+.mainmenu {
+	text-align: right;
+	font-size: 20px;
+}
+.mainmenu ul {
+	list-style: none;
+}
+.mainmenu ul li {
+	display: inline-block;
+	padding-left: 30px;
+}
+.mainmenu ul li a {
+	color: #252c30;
+}
+.slide-text {
+	width: 60%;
+	padding-left: 80px;
+	font-size: 18px;
+	color: #817c82;
+	line-height: 1.8;
+}
+.slide-text h2 {
+  color: #252c30;
+  line-height: 40px;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.slide-text a {
+  color: #7b6078;
+  font-weight: 700;
+}
+.social-links {
+  text-align: right;
+  padding-right: 65px;
+}
+.social-links a {
+  color: #b5acb3;
+  font-size: 30px;
+  padding-left: 14px;
+}
+.social-links a:hover {
+  color: #000;
+}
+.copyright-text {
+  padding-left: 65px;
+  padding-top: 10px;
+}
+/*Theme 2 Working code */
+.theme-2 .site-wrap{
+	background-image: url(../img/section-bg.jpg);
+}
+.theme-2 .header-area {
+  position: relative;
+}
+.theme-2 .footer-area {
+  position: relative;
+  margin-top: 50px;
+}
+.theme-2 .site-wrap {
+  background-size: cover;
+  background-position: center;
+  background-color: #333;
+  margin: 6%;
+}
+.theme-2 .slide-text {
+	padding: 100px 80px;
+}
+/* Full Height Section Stop */
